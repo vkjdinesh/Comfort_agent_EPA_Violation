@@ -77,9 +77,9 @@ Provides a standardized Paho MQTT client setup and connection management as the 
 ### Task Description 
 As a continuation of the Home Automation Agent project, build a Comfort Agent to detect Environmental Protection Agency (EPA) violations. This agent can be either a custom implementation or use an LLM.
 Example safe zone criteria:
-    ```bash
-    Temperature: 20–24 °C
-    Humidity: ≤ 60%
-
+```
+Temperature: 20–24 °C
+Humidity: ≤ 60%
+```
 Note: The flow is as follows:
 Sensor Agent → Comfort Agent (LLM or custom) → EPA alert
