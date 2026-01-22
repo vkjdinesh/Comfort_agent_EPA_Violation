@@ -15,7 +15,7 @@ The entire system runs concurrently, orchestrated by a master script, with all M
 This modular and cyclical architecture ensures automated and responsive control of home lighting based on environmental conditions.
 
 ## System Flow
-
+```
 Sensor Agent analyzing... → publishes light commands
 ↓
 Light Controller receives → forwards to actuator commands
@@ -27,6 +27,7 @@ LLM reviewing... → approved/warning → feedback
 Actuator EXECUTING → physical lights → completed status
 ↓
 Loop repeats every 15 seconds (Sensor Agent cycle)
+```
 
 ### Sensor Agent
 
